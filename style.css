@@ -7,18 +7,90 @@ html,
 body {
   scroll-behavior: smooth;
   margin: 0 auto;
-  background-color: #b6abab;
-  color: #3b2121;
+  background-color: #dedede;
+  color: #282828;
   text-align: center;
+}
+
+/* container */
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 50px auto;
 }
 
 /* header */
 
 header h1 {
   padding: 100px;
+  color: #fff;
+}
+
+
+/* dice */
+
+.dice-section {
+  background-color: #ededed;
+  padding-bottom: 30px;
+  border-radius: 30px;
+}
+
+.dice-container {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.dice-container div {
+  color: #fff;
+  flex: 1;
+}
+
+.top,
+.bottom {
+  display: flex;
+}
+
+.dice {
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  min-width: 150px;
+  margin: 0 1px;
+}
+
+.dice-img {
+  align-content: center;
+}
+
+.dice-img img {
+  width: 100px;
+}
+
+.roll-button {
+  background: rgb(54, 54, 54);
+  display: block;
+  max-height: 30px;
+  align-content: center;
+  margin: auto;
+  width: 100px;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+
+.roll-button:hover {
+  background: rgb(123, 123, 123);
 }
 
 /* footer */
+
+.footer-container {
+  margin-top: 200px;
+}
 
 .footer-container p {
   font-size: small;
