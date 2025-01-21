@@ -23,8 +23,8 @@ body {
 /* header */
 
 header h1 {
-  padding: 100px;
-  color: #fff;
+  padding: 40px;
+  color: rgb(54, 54, 54);
 }
 
 
@@ -32,8 +32,9 @@ header h1 {
 
 .dice-section {
   background-color: #ededed;
-  padding-bottom: 30px;
+  padding: 20px 20px 40px 20px;
   border-radius: 30px;
+
 }
 
 .dice-container {
@@ -76,13 +77,34 @@ header h1 {
   max-height: 30px;
   align-content: center;
   margin: auto;
-  width: 100px;
+  width: 95%;
   border-radius: 6px;
   text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }
 
 .roll-button:hover {
   background: rgb(123, 123, 123);
+  cursor: pointer;
+}
+
+
+.reset-button {
+  background: rgb(54, 54, 54);
+  display: block;
+  max-height: 30px;
+  margin: 25px auto;
+  padding: 5px;
+  width: 100px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+
+.reset-button:hover {
+  background: rgb(123, 123, 123);
+  cursor: pointer;
 }
 
 /* footer */
@@ -121,11 +143,11 @@ header h1 {
 @media screen and (max-width: 375px) {
 
   .container {
-      width: 100%;
+    width: 100%;
 
-    }
+  }
 
-.dice-section {
+  .dice-section {
     border-radius: 0px;
   }
 
